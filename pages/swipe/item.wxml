@@ -1,0 +1,9 @@
+<template name="mb">
+    <view  wx:for='{{list}}'>
+      <view bindtap='del' data-index='{{index}}'>
+         {{item}}
+      </view>
+       <checkbox value="{{item.name}}" checked="{{flag}}"/>
+    </view>
+    <button bindtap='all'>全选</button>
+</template>

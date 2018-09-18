@@ -1,0 +1,4 @@
+<!--pages/data/data.wxml-->
+<view wx:for="{{list}}">
+<image src='{{item.imageUrl}}'></image>
+</view>
